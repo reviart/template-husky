@@ -1,0 +1,18 @@
+{
+  "name": "template-husky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Revi",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint '*.js'",
+    "lint:fix": "./node_modules/.bin/eslint --fix '*.js'",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^8.0.3"
+  }
+}
