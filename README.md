@@ -21,3 +21,5 @@ npm install
 3. Try change somecode on index.js that can break lint
 4. Try commit that changes
 5. Husky should be working
+
+![Image result](result.png)
